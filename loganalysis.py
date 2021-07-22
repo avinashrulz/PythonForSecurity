@@ -3,7 +3,7 @@ f = open("D:/Downloads/"+"access_log.txt", "r")
 # User input to search the required IP Address
 strIpAdd = input("enter the IP address to search: ")
 
-#Assuming that the log file consists of records in the floowing format:
+#Assuming that the log file consists of records in the following format:
 #<ip address> - <other details>
 
 for line in iter(f):
